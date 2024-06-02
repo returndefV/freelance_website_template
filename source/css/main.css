@@ -84,7 +84,7 @@ body {
 
 /* Menu */
 .menu__icon {
-    display: block;
+    display: none;
     width: 30px;
     height: 18px;
     position: relative;
@@ -178,7 +178,7 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 3;
   }
    
   .back-to-top:hover {
