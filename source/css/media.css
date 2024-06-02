@@ -25,7 +25,10 @@
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+	.menu__icon {
+		display: block;
+	}
 	.title-1 {
 		line-height: 1.2;
 	}
@@ -43,7 +46,7 @@
 	}
 
 	.header-content {
-		margin-top: 50px;
+		margin-top: 50%;
 		text-align: center;
 	}
 
@@ -132,5 +135,27 @@
 
 	.contacts-button {
 		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 414px) {
+	.header-content {
+		margin-top: 50%;
+	}
+}
+
+@media (max-width: 375px) {
+	.header-content {
+		margin-top: 30%;
+	}
+}
+
+@media (max-width: 320px) {
+	.header-content {
+		margin: auto;
+	}
+
+	.header-heading {
+		margin: auto;
 	}
 }
